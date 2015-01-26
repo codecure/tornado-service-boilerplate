@@ -1,0 +1,18 @@
+app:
+  debug: false
+  port: 8389
+  fork_processes: true
+  num_processes: 0
+  token: 'token'
+connection:
+   db:
+       user: username
+       password: password
+       host: hostname
+       port: 5432
+       database: dbname
+   rabbitmq:
+       user: username
+       password: password
+       host: hostname
+       port: 5672
